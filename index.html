@@ -63,7 +63,7 @@
             </div>
 
             <span class="button-box">
-                <button id="macdownload"><i class="fa-solid fa-down-long"></i>Scarica per Mac</button>
+                <button id="macdownloadheader"><i class="fa-solid fa-down-long"></i>Scarica per Mac</button>
             </span>
 
             <span class="button-box">
@@ -94,8 +94,9 @@
 
         </section>
 
-
-
+        <div class="wave up">
+            <img src="./assets/img/wave.svg" alt="">
+        </div>
 
         <section id="grey">
 
@@ -113,6 +114,10 @@
             </div>
 
         </section>
+
+        <div class="wave down">
+            <img src="./assets/img/wave.svg" alt="">
+        </div>
 
 
         <section id="white">
@@ -132,6 +137,9 @@
 
         </section>
 
+        <div class="wave up">
+            <img src="./assets/img/wave.svg" alt="">
+        </div>
 
         <section id="grey">
 
@@ -149,11 +157,16 @@
             </div>
 
             <div class="promt">
-
-                <h2>Pronto a iniziare la tua avventura?</h2>
+                <span>
+                    <img src="./assets/img/stars.svg" alt="">
+                    <h2>Pronto a iniziare la tua avventura?</h2>
+                </span>
                 
                 <span class="button-box">
-                    <button id="macdownload">Scarica per Mac</button>
+                    <button id="macdownload">
+                        <i class="fa-solid fa-down-long"></i>
+                        Scarica per Mac
+                    </button>
                 </span>
 
             </div>
@@ -178,27 +191,18 @@
                             <h2>Il tuo posto per parlare</h2>
                         </li>
 
-                        <li>
-                            <select name="Lingua" id="language">
-                                <option value="">Italiano</option>
-                                <option value="">Inglese</option>
-                                <option value="">Francese</option>
-                                <option value="">Spagnolo</option>
-                                <option value="">Tedesco</option>
-                                <option value="">Portoghese</option>
-                                <option value="">Russo</option>
-                                <option value="">Arabo</option>
-                                <option value="">Giapponese</option>
-                                <option value="">Cinese</option>
-                            </select> 
+                        <li id="select">
+                            <img id="flag" src="./assets/img/ita.png" alt="">
+                            <span id="language">Italiano </span>
+                            <span><i class="fa-solid fa-chevron-down"></i></span>
                         </li>
 
                         <li>
-                            <div class="social">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                                <div></div>
+                            <div class="social-box flex">
+                                <div class="social"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="social"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="social"><i class="fa-brands fa-facebook"></i></div>
+                                <div class="social"><i class="fa-brands fa-youtube"></i></div>
                             </div>
                         </li>
                     </ul>
@@ -353,10 +357,12 @@
 
         <div class="closing flex">
 
-            <div class="logo"></div>
+            <div class="logo">
+                <img src="./assets/img/logo.svg" alt="">
+            </div>
 
             <div class="button-box login-button">
-                <button id="login">Registrati</button>
+                <button id="registration">Registrati</button>
             </div>
 
         </div>

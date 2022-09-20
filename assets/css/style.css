@@ -33,11 +33,11 @@ header{
     color: #23272A;
 }
 
-#macdownload{
+#macdownloadheader{
     color: #23272A;
 }
 
-#macdownload>i{
+#macdownloadheader>i{
     color: #23272A;
     margin-right: 5px;
 }
@@ -91,6 +91,16 @@ main .container{
     padding-bottom: 40px;
 }
 
+.wave{
+    background-image: url('../img/wave.svg');
+    width: auto;
+    opacity: 4%;
+}
+
+.down{
+    transform: rotate(180deg);
+}
+
 .image1,
 .image2,
 .image3{
@@ -108,7 +118,7 @@ main .container{
 }
 
 #grey{
-    background-color: #F6F6F6;
+    background-color: #F5F5F5;
 }
 
 .first,
@@ -144,10 +154,22 @@ main .container{
     color: #23272A;
 }
 
-.promt button{
+.promt button,
+#registration{
     background-color: #8EA1E1;
     color: white;
 }
+
+#macdownload> i{
+    color white
+    margin-right: 15px;
+}
+
+#macdownload{
+    background-color: #8EA1E1;
+    color: white;
+}
+    
 
 .promt>h2,
 .promt>span{
@@ -156,6 +178,7 @@ main .container{
 
 footer{
     background-color: #23272A;
+    color: white;
 }
 
 footer>.container{
@@ -173,10 +196,16 @@ li h4{
 }
 
 select{
-
+    border: none;
+    background-color: #23272A;
+    color: white
 }
 
-.social{
+#flag{
+    height: 17px;
+}
+
+.social-box{
     width: 180px;
     height: 45px;
 }
@@ -186,7 +215,12 @@ select{
     justify-content: space-between;
 }
 
-.ul-footer>li{
+.social{
+    margin: 10px;
+}
+
+#language{
+    padding: 10px 0;
 }
 
 .closing{
@@ -195,4 +229,18 @@ select{
     height: 100px;
     width: 80%;
     margin: auto;
+}
+
+#registration,
+.closing img{
+    margin-top: 15px;
+    margin-right: 0;
+}
+
+#select{
+    padding: 10px 0;
+}
+
+.button-box{
+    padding-right: 0;
 }
