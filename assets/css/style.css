@@ -140,6 +140,10 @@ main .container{
     flex-direction: column-reverse;
 }
 
+.fourth .description{
+    text-align: center;
+}
+
 .image4{
     background-size: cover;
     height: 100%;
