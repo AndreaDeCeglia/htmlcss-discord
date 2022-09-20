@@ -247,4 +247,10 @@ select{
 
 .button-box{
     padding-right: 0;
+    position: relative;
+}
+
+#registration{
+    position: absolute;
+    right: 0;
 }
